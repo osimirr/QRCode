@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 70%;
+      min-width: 375px;
+      text-align: center;
+      background-color: white;
+      border-radius: 30px;
+
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      font-family: 'Outfit', sans-serif;
+      width: 100%;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      
+      
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    img {
+      margin-top: 30px;
+      width: 90%;
+      border-radius: 30px;
+    }
+
+    .text{
+      font-family: 'Outfit', sans-serif;
+      width: 90%;
+      text-align: center;
+      padding: 10px 5%;
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+    }
+
+    .bold{
+      font-size: 22px;
+      font-weight: bold;
+      color: hsl(218, 44%, 22%);
+    }
+    
+    @media (min-width: 768px) and (orientation: landscape){
+      .main{
+        height: 70%;
+        width: 400px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="qr-code"><img src="./images/image-qr-code.png" alt="qr code"></div>
+    <div class="text bold">Improve your front-end skills by building projects</div>
+    <div class="text ">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/osimirr">Michał Osowski Frontend Developer</a>.
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
